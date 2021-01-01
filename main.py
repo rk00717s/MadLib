@@ -4,7 +4,7 @@ from random import randrange
 with open("Materials.json", mode = 'r', encoding = 'utf-8', errors = 'strict', buffering = 1) as file:
     contents = json.load(file)
 
-keypick = str(randrange(0, len(contents)+1))
+keypick = str(randrange(1, len(contents)+1))
 
 formating_values = list()
 
